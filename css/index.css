@@ -1,3 +1,105 @@
+@media ( max-width: 500px ) {
+  .home .top {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+  }
+}
+@media ( max-width: 500px ) {
+  .home .top h2 {
+    font-size: 3rem;
+    padding: 15px 0;
+  }
+}
+@media ( max-width: 500px ) {
+  .home .top nav {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    justify-content: space-evenly;
+  }
+}
+@media ( max-width: 500px ) {
+  .home .top nav a {
+    font-size: 1.6rem;
+  }
+}
+@media ( max-width: 500px ) {
+  .home .Introduction {
+    margin: 0 10px;
+  }
+}
+@media ( max-width: 500px ) {
+  .home .Introduction img {
+    padding: 0 15px;
+  }
+}
+@media ( max-width: 500px ) {
+  .home .Introduction .intro-text {
+    padding: 0 15px;
+  }
+}
+@media ( max-width: 500px ) {
+  .home section.content-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media ( max-width: 500px ) {
+  .home section.content-section div.text-content {
+    width: 90%;
+    padding: 0;
+  }
+}
+@media ( max-width: 500px ) {
+  .home section.content-section div.img-content {
+    width: 100%;
+  }
+}
+@media ( max-width: 500px ) {
+  .home section.content-section div.img-content img {
+    width: 90%;
+    margin-left: 20px;
+  }
+}
+@media ( max-width: 500px ) {
+  .home section.content-section.inverse-content {
+    flex-direction: column-reverse;
+  }
+}
+@media ( max-width: 500px ) {
+  .home section.content-section.inverse-content div.img-content {
+    width: 100%;
+  }
+}
+@media ( max-width: 500px ) {
+  .home section.content-section.inverse-content div.img-content img.img-fluid.rounded {
+    width: 90%;
+    margin-left: 20px;
+  }
+}
+@media ( max-width: 500px ) {
+  .home section.content-destination {
+    width: 90%;
+  }
+}
+@media ( max-width: 500px ) {
+  .home .content-pick {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media ( max-width: 500px ) {
+  .home .content-pick div.destination {
+    width: 70%;
+  }
+}
+@media ( max-width: 500px ) {
+  .home .content-pick div.destination div.btn {
+    width: 360px;
+    background-color: #17A2B8;
+  }
+}
 .destination .btn {
   display: flex;
   justify-content: center;
