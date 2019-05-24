@@ -12,3 +12,136 @@
 @shark: #212529;
 @eastern-blue: #17A2B8;
 @sandy-beach: #FFEBCD;
+
+// Media Query
+@mobile: ~"( max-width: 500px )";
+
+
+
+.home {
+    .top {
+        @media @mobile {
+            flex-direction: column;
+            align-items: center;
+                margin: 10px 0;
+        }
+
+        h2 {
+            @media @mobile {
+                font-size: 3rem;
+                padding: 15px 0;
+            }
+        } 
+        nav {
+            @media @mobile {
+                margin: 0 auto;
+                width: 100%;
+                padding: 0;
+                justify-content: space-evenly;
+            }
+
+            a {
+                @media @mobile {
+                    font-size: 1.6rem;
+                }
+            }
+        } //nav
+    } //top
+
+    .Introduction {
+         @media @mobile {
+             margin: 0 10px;
+         }
+
+         img {
+             @media @mobile {
+                 padding: 0 15px;
+             }
+         }
+
+         .intro-text {
+             @media @mobile {
+                 padding: 0 15px;
+             }
+         }
+     } //Introduction
+
+    section.content-section {
+        @media @mobile {
+            flex-direction: column;
+            align-items: center
+        }
+        
+        div.text-content {
+            @media @mobile {
+                width: 90%;
+                padding: 0;
+            }
+        }
+        
+        div.img-content {
+            @media @mobile {
+                width: 100%;
+            }
+
+            img {
+                @media @mobile {
+                    width: 90%;
+                    margin-left: 20px;
+                }
+            }
+        }
+    } //section.content-section
+    
+
+    section.content-section.inverse-content {
+        @media @mobile {
+            flex-direction: column-reverse;
+        }
+
+        div.img-content {
+            @media @mobile {
+                width: 100%;
+            }
+
+            img.img-fluid.rounded {
+                @media @mobile {
+                    width: 90%;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+
+    section.content-destination {
+        @media @mobile {
+            width: 90%;
+        }
+    }
+
+    .content-pick {
+        @media @mobile {
+            flex-direction: column;
+            align-items: center;
+        }
+   
+        div.destination {
+           @media @mobile {
+               width: 70%;
+           }
+       
+           div.btn {
+               @media @mobile {
+                   width: 360px;
+                   background-color: #17A2B8;
+               }
+           }
+        }
+    } //content-pick
+
+} //home
+
+
+ 
+ 
+
